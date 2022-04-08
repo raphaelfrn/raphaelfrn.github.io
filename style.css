@@ -1,0 +1,200 @@
+
+/* Ma navbar  */
+nav {
+    background: #14213D;
+}
+
+.navbar-toggler {
+    color: white;
+}
+
+
+header a,
+.nav-link {
+    color: white !important;
+}
+
+header a:hover,
+.nav-link:hover {
+    color: #FEDFAC !important;
+    font-size: larger;
+
+}
+
+header .nav-link:focus {
+    color: #FEDFAC !important;
+}
+
+/* Fin Navbar */
+
+/* Elements globaux */
+
+h2 #presentation,
+#competences,
+#projets,
+#contact,
+#presentation {
+    color: #14213D;
+    text-align: center;
+}
+
+#presentation,
+#competences,
+#contact {
+    padding-top: 70px;
+
+}
+
+.yellow {
+    background-color: #FEDFAC;
+}
+
+.grey {
+    background-color: #E5E5E5;
+}
+
+.boutonjaune {
+    color: #14213D;
+    background-color: #FEDFAC;
+    border: solid 1px #14213D;
+}
+
+.boutonjaune:hover {
+    background-color:#14213D;
+    color:white;
+}
+
+
+
+/* Landing page */
+
+.landing-page {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('images/web1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #FEDFAC;
+}
+
+.landing-page img {
+    width: 38px;
+    border-radius: 25%;
+
+}
+
+.logo {
+    margin-top: 1%;
+}
+
+.landing-page img:hover{
+    border:solid 1px #FEDFAC;
+}
+
+.policebleu {
+    color: #14213D;
+}
+
+.policebleu:hover{
+    
+    background-color: #14213D;
+    color:white;
+}
+
+
+/* Fin de la landing page */
+
+/* page présentation */
+#presentation img {
+    width: 78px;
+    border-radius: 50%;
+
+}
+#presentation img:hover{
+    width: 88px;
+}
+
+.carte-bg {
+    background-color: #E5E5E5;
+    border: none;
+
+}
+
+.carte-bg2 {
+    background-color: #FEDFAC;
+    border: none;
+}
+
+
+/* fin de la page présentation */
+/* Page compétences */
+
+.progress {
+
+    background: white;
+    border: 2px solid #14213D;
+    margin: auto;
+    margin-bottom: 3%;
+    font-weight: bold;
+}
+
+.bg-fonce {
+    background-color: #14213D;
+}
+
+.bg-jone {
+    background-color: #FCA311;
+}
+
+.womansize {
+    width: 80px;
+    border-radius: 50%;
+}
+/* Fin de page compétences */
+/* Page contact */
+.form-control:focus {
+    background: #FEDFAC;
+    box-shadow: none;
+    border-color: #FCA311;
+}
+
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 40%;
+    position: relative;
+
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+/* Fin de page contact */
+/* Footer */
+
+footer {
+
+    color: white;
+
+}
+
+.footer-jaune {
+    background-color: #14213D;
+}
+
+footer img {
+    width: 28px;
+    margin-top: 2%;
+    border-radius: 25%;
+}
+
+footer img:hover{
+    border:solid 1px #14213D;
+}
+/* Fin footer */
