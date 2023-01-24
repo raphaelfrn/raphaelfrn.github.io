@@ -11605,7 +11605,7 @@ body {
 }
 
 .about-section {
-  padding-top: 10rem;
+  padding-top: 4rem;
   background: #2ba9b7 0%;
 }
 .about-section p {
@@ -11699,7 +11699,3 @@ body {
   padding: 5rem 0;
 }
 
-.luca-photo{
-  max-height:500px;
-  max-width:700px;
-}
